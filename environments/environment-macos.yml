@@ -1,0 +1,11 @@
+name: phys201
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - seaborn
+  - emcee=2.2.1
+  - pymc3
+  - jupyterlab
+  - mkl-service
+  - python-graphviz
