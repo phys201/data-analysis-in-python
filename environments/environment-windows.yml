@@ -1,0 +1,14 @@
+name: phys201
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.9
+  - libpython
+  - jupyterlab
+  - pymc3
+  - m2w64-toolchain
+  - emcee=2.2.1
+  - seaborn
+  - python-graphviz
+  - mkl-service
