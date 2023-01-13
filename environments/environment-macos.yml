@@ -3,9 +3,10 @@ channels:
   - conda-forge
   - defaults
 dependencies:
-  - seaborn
-  - emcee=2.2.1
-  - pymc3
+  - python>=3.11
   - jupyterlab
-  - mkl-service
+  - pymc=5.0.1
+  - emcee=2.2.1
+  - seaborn
   - python-graphviz
+  - mkl-service
