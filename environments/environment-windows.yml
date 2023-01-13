@@ -3,10 +3,10 @@ channels:
   - conda-forge
   - defaults
 dependencies:
-  - python=3.9
+  - python>=3.11
   - libpython
   - jupyterlab
-  - pymc3
+  - pymc=5.0.1
   - m2w64-toolchain
   - emcee=2.2.1
   - seaborn
